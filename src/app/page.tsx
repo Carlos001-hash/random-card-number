@@ -27,12 +27,12 @@ export default function MyApp() {
         setIputNumberMax(parseFloat(event.target.value))
     }
 
-    let card = [];
+    const card = [];
     
 
     if (show == false) {
         for (let i = 0; i < inputValue; i++) {
-            let what = "?";
+            const what = "?";
             card.push(what)
         }
    } else {
