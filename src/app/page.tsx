@@ -37,8 +37,8 @@ export default function MyApp() {
         }
    } else {
         for (let i = 0; i < inputValue; i++) {
-            let what = Math.floor(Math.random() * inputNumberMax) + 1;
-            card.push(what)
+            const number = Math.floor(Math.random() * inputNumberMax) + 1;
+            card.push(number)
         }
    }
     
